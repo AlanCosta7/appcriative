@@ -4,10 +4,10 @@ import * as firebase from 'firebase'
 
 // Initialize Firebase
 const config = initializeApp({
-  apiKey: "AIzaSyAUTf9v0FZkw9SAJhFkAFuzdtrpg5HsqlI",
-  authDomain: "criative-2018-js.firebaseapp.com",
-  databaseURL: "https://criative-2018-js.firebaseio.com",
-  storageBucket: "criative-2018-js.appspot.com",
+  apiKey: "apiKey"
+  authDomain: "authDomain",
+  databaseURL: "databaseURL",
+  storageBucket: "storageBucket",
   })
 
   export const database = config.database();
